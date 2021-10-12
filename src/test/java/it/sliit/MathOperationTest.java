@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-
 class MathOperationTest {
 
     @Test
@@ -15,5 +14,10 @@ class MathOperationTest {
     @Test
     void subtract() {
         assertEquals(MathOperation.subtract(2, 1), 1);
+    }
+
+    @Test
+    void absolute() {
+        assertEquals(MathOperation.absolute(-2), 2);
     }
 }
