@@ -4,6 +4,13 @@ import java.util.Arrays;
 
 
 public class MathOperation {
+ 
+    public static int div(a, b)
+
+{
+      return a/b;
+
+} 
 
     public static double add(double... operands)
     {
