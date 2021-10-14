@@ -16,4 +16,9 @@ class MathOperationTest {
     void subtract() {
         assertEquals(MathOperation.subtract(2, 1), 1);
     }
+
+    @Test
+    void multiply() {
+            assertEquals(MathOperation.multiply(3, 3), 9);
+        }
 }
