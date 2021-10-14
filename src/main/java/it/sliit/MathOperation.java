@@ -15,8 +15,7 @@ public class MathOperation {
         return operand1 - operand2;
     }
 
-    //Member A
-    public static int multiply(int operand1, int operand2)
+    public static double multiply(double operand1, double operand2)
         {
             return operand1 * operand2;
         }
